@@ -25,7 +25,7 @@
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
   <!-- Brand/logo -->
-  <a class="navbar-brand" href="#" ><img src="logo.jpg" style="width: auto;height: 100px"></a>
+  <a class="navbar-brand" href="#" ><img src="logo.gif" width="50" height="50"></a>
   
   <!-- Links -->
   <ul class="navbar-nav ml-auto" style="">
@@ -55,23 +55,23 @@
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="q1.jpg" alt="Los Angeles" width="1100" height="500">
+      <img src="background.jpeg" alt="Los Angeles" width="1100" height="500">
        <div class="carousel-caption">
-        <h3>Goverment arts college Dharmapuri</h3>
+        <h3>Government arts college Dharmapuri</h3>
         <p>Studies is always so much fun!</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="q2.jpg" alt="Chicago" width="1100" height="500">
         <div class="carousel-caption">
-        <h3>Goverment arts college Dharmapuri</h3>
+        <h3>Government arts college Dharmapuri</h3>
         <p>Studies is always so much fun!</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="q3.jpg" alt="New York" width="1100" height="500">
         <div class="carousel-caption">
-        <h3>Goverment arts college Dharmapuri</h3>
+        <h3>Government arts college Dharmapuri</h3>
         <p>Studies is always so much fun!</p>
       </div>
     </div>
