@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!isset($_SESSION['student'])){
+  echo '<script>alert("please do login to proceed");location.href="../project/"</script>';
+}
+
+?>
 <!DOCTYPE html>
 <html>
 <head>

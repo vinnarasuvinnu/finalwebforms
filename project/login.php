@@ -30,6 +30,11 @@
 <p>Password</p>
 <input type="password" name="pass" placeholder=" Enter password" class="form-control">
 <br>
+<select name="type" class="form-control">
+<option>select your type</option>
+<option value="hod">HOD</option>
+<option value="student">Student</option>
+	</select>
 <br>
 <div class="text-center" style="margin-bottom: 20px">
 <input type="submit" name="" value="Login" class="btn btn-primary">

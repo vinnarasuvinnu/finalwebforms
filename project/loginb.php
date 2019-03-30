@@ -3,6 +3,19 @@ session_start();
 include("db.php");
 $name=$_POST['name'];
 $pass=$_POST['pass'];
+$type=$_POST['type'];
+if($type=="student"){
+	if($name=="student" && $pass=="student@123"){
+$_SESSION['student']=$name;
+header('Location:../profile/index.php');
+}
+else{
+
+	echo "<script>alert('Your password does not match');location.href='login.php'</script>";
+}
+
+}
+else{
 $q1="select * from login where name='$name' and password='$pass'";
 $res=mysqli_query($con,$q1);
 if(mysqli_num_rows($res)==1){
@@ -29,4 +42,5 @@ else{
 	echo '</script>';
 }
 
+}
 ?>
