@@ -39,7 +39,7 @@
     </div>
         <div class="form-group">
       <label for="rno">Number of titles</label>
-      <input type="number" class="form-control" id="rno" placeholder="Enter Register No" name="title" required="true">
+      <input type="text" class="form-control" id="rno" placeholder="Enter Register No" name="title" required="true">
     </div>
  
 <div class="form-group">

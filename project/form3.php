@@ -39,7 +39,7 @@
     </div>
         <div class="form-group">
       <label for="rno">Register No</label>
-      <input type="number" class="form-control" id="rno" placeholder="Enter Register No" name=rno" required="true">
+      <input type="text" class="form-control" id="rno" placeholder="Enter Register No" name=rno" required="true">
     </div>
       <div class="form-group">
       <label for="optradio">Gender:</label>
@@ -77,7 +77,7 @@
     </div>
 	<div class="form-group">
       <label for="link">link of your project</label>
-      <input type="number" class="form-control" id="link" placeholder="Link of your project" name="link" required="true"> 
+      <input type="text" class="form-control" id="link" placeholder="Link of your project" name="link" required="true"> 
     </div>
    <div class="text-center">
   <input type="submit" value="submit" class="btn btn-primary">

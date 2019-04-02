@@ -20,7 +20,7 @@ $q1="select * from login where name='$name' and password='$pass'";
 $res=mysqli_query($con,$q1);
 if(mysqli_num_rows($res)==1){
 	$row=mysqli_fetch_array($res);
-	if ($row['name']=="qqq"){
+	if ($row['name']=="csdept"){
 	$_SESSION['uname']="qqq";
 
 		echo '<script>';

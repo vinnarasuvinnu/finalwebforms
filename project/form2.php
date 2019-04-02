@@ -72,20 +72,20 @@
     </div>
 	<div class="form-group">
       <label for="njournal">Name of Journal</label>
-      <input type="number" class="form-control" id="njournal" placeholder="Enter name of journel" name="njournal" required="true">
+      <input type="text" class="form-control" id="njournal" placeholder="Enter name of journel" name="njournal" required="true">
     </div>
 	<div class="form-group">
       <label for="yp">Year of publication</label>
-      <input type="number" class="form-control" id="yp" placeholder="Enter year of publication" name="yp" required="true">
+      <input type="text" class="form-control" id="yp" placeholder="Enter year of publication" name="yp" required="true">
 	  
     </div>
 	<div class="form-group">
       <label for="ino">ISBN/ISSN Number</label>
-      <input type="number" class="form-control" id="ino" placeholder="Enter ISBN/ISSN No." name="ino" required="true">
+      <input type="text" class="form-control" id="ino" placeholder="Enter ISBN/ISSN No." name="ino" required="true">
     </div>
 	<div class="form-group">
       <label for="link">Link of therecognition in UGC enlistment of the journal</label>
-      <input type="number" class="form-control" id="link" name="link" required="true">
+      <input type="text" class="form-control" id="link" name="link" required="true">
     </div>
     <br>
     <div class="text-center">
