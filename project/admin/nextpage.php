@@ -32,6 +32,9 @@ if(!isset($_SESSION['uname'])){
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <style type="text/css">
+      body{
+        background-color: #002a5c;
+      }
       tr:hover {
     background: green !important;
 }

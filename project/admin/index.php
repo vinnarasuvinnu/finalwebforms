@@ -88,7 +88,6 @@ $('#ff2').click(function(){
 
 
 
-
 $('#ff3').click(function(){
  $('#f3').show();
            $('#f2').hide();
